@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 8vh;
+    background-color: rgb(9, 10, 10);
+    display: flex;
+   
+}
+.a1 img{
+    margin: 10px 5px 0px 190px;
+}
+.a2 a{
+    color: rgb(251, 251, 4);
+    text-decoration: none;
+    margin: 0px 5px 0px 190px;
+    
+}
+input{
+    margin-right: 0px;
+}
+.ab{
+    width: 500px;
+    height: 30px;
+    margin: 10px 0px 10px 7px ;
+}
+#x2{
+    margin-left: 10px 0px 10px 0px;
+    margin-top: 10.5px;
+    padding: 6px;
+    background-color: white;
+}
+
+.s{
+    color: white;
+    font-size: 20px;
+    width: 110px;
+    height: 25px;
+    margin: 13px 0px 0px 30px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.p{
+    background-color: white;
+    color: rgb(45, 126, 247) ;
+    text-decoration: bold;
+    width: 110px;
+    height: 25px;
+    margin: 13px 0px 0px 200px;
+    text-align: center;
+    color: rgb(45, 126, 247) ;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.con {
+    display: flex;
+    justify-content: space-between;
+    animation: shb 10s ease-out  infinite ;
+}
+
+
+@keyframes shb {
+    0%{
+       transform: translateX(0px);
+    }
+    33%{
+        transform: translateX(-1540px);
+    }
+    66%{
+        transform: translateX(-3080px);
+    }
+    100%{
+        transform: translateX(-4620px);
+    }
+}
+.s1{
+    background-color: rgb(247, 247, 247);
+    margin: 10px 10px 0px 10px;
+}
+.pz{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(247, 247, 247);
+    margin: 0px 10px 5px 10px;
+    
+}
+.ax{
+    margin-top: 10px;
+}
+.q{
+    text-align: center;
+}
+footer{
+    height: 200px;
+    background-color: rgb(17, 17, 18);
+    display: flex;
+    color: white;
+}
+#sab{
+    padding: 150px 750px ;
+}
